@@ -1,10 +1,10 @@
 PImage img;
 float r;//kaleidoscope radius
 float angle = radians(45);//" angle
-float imgAngleOff = 160;//offset angle when uv mapping
+float imgAngleOff = 0;//offset angle when uv mapping
 
 void setup(){
-  size(500, 500, P3D);
+  size(1000, 1000, P3D);
   r = height;
   //String url = "https://d1o50x50snmhul.cloudfront.net/wp-content/uploads/2017/09/28161418/behemoth_blackhole.jpg";
   img = loadImage("behemoth_blackhole.jpg");
