@@ -6,8 +6,8 @@ float imgAngleOff = 160;//offset angle when uv mapping
 void setup(){
   size(500, 500, P3D);
   r = height;
-  String url = "https://d1o50x50snmhul.cloudfront.net/wp-content/uploads/2017/09/28161418/behemoth_blackhole.jpg";
-  img = loadImage(url);
+  //String url = "https://d1o50x50snmhul.cloudfront.net/wp-content/uploads/2017/09/28161418/behemoth_blackhole.jpg";
+  img = loadImage("behemoth_blackhole.jpg");
   noStroke();textureMode(NORMAL);
   
 }
