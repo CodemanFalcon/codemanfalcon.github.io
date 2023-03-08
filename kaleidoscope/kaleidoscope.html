@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../assets/images/canti.jpg" />
+    <title>Cody Salyi - Portfolio</title>
+    <meta name="description" content="Portfolio of developer Cody Salyi." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/typography.css" />
+    <link rel="stylesheet" href="../css/utilities.css" />
+    <link rel="shortcut icon" href="../css/TemplateData/favicon.ico" />
+    <link rel="stylesheet" href="../css/TemplateData/style.css" />
+    <script defer src="../scripts/script.js"></script>
+    <script type="text/javascript" src="processing.js"></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Cody Salyi - Portfolio</span>
+        <a class="button" href="mailto:cody.salyi.dev@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <div class="main-title">Kaleidoscope</div>
+        <div class="body-text">
+          An interactive kaleidoscope using Processing.js. Cursor position on
+          the image controls the Kaleidoscope. Y axis controls speed where the
+          top of the image stops the Kaleidoscope and the bottom of the image
+          speeds it up. X axis controls number of axes of reflection where left
+          is the least and right is the most.
+        </div>
+      </div>
+    </div>
+
+    <!-- Unity Game Container -->
+    <canvas data-processing-sources="kaleidoscope.pde"></canvas>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <a class="icon-link" href="mailto:cody.salyi.dev@gmail.com">
+        <image src="../assets/icons/mail.svg" class="footer-icon" />
+      </a>
+    </div>
+  </body>
+</html>
